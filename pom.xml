@@ -71,5 +71,17 @@
             </plugin>
         </plugins>
     </build>
-
+	<distributionManagement>
+		<repository>
+			<id>2.1.3.RELEASE</id>
+			<name>2.1.3.RELEASE</name>
+			<url>http://ec2-3-128-246-59.us-east-2.compute.amazonaws.com:8082/</url>
+		</repository>
+		<snapshotRepository>
+			<id>0.0.1-SNAPSHOT</id>
+			<name>0.0.1-SNAPSHOT</name>
+			<url>http://ec2-3-128-246-59.us-east-2.compute.amazonaws.com:8082/</url>
+		</snapshotRepository>
+	</distributionManagement>
+	
 </project>
